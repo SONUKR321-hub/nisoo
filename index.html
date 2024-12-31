@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #282c34;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ffcc00;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        p:hover {
+            transform: scale(1.05);
+        }
+        .heart {
+            color: #ff69b4;
+            font-size: 2em;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #cccccc;
+        }
+        .button {
+            background-color: #ffcc00;
+            color: #282c34;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ffd700;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        .hidden-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy New Year 2025!</h1>
+    <p>My Dearest Niso,</p>
+    <p>Thank you for giving me so much love and care for me, bhaut khushnasib hun ki tm mili. Aage k jeevan tmhara acha ho, khushhaal ho yehi kamna hai.</p>
+    
+    <p>MAINE TB KHA THA YAAD HAI TMHE KI:</p>
+    <p>"Tm drr rhi ki ma tmhare saath nhi."</p>
+    <p>"Sirf tm, hm aur zindagi nhi."</p>
+    <p>Always love you! <span class="heart">❤️</span></p>
+    <p>I LOVE YOU! LOVE YOU! LOVE YOU!</p>
+
+    <div class="image-container">
+        <img src="1.jpg" alt="A beautiful moment together">
+        <img src="2.jpg" alt="Another lovely memory">
+        <img src="3.jpg" alt="Another lovely memory">
+        <img src="4.jpg" alt="Another lovely memory">
+    </div>
+
+    <p>Your love is my greatest treasure, and I am so grateful to have you by my side.</p>
+    <p>With all my love,</p>
+    <p>Tmhara Sonu</p>
+    <p>Hamesha khush rehna!</p>
+    <p>Preshan krta rahunga, beech beech me baat kr lena.</p>
+    
+    <button class="button" onclick="toggleMessage()">THANK YOU FOR BECOMING MY SPECIAL PERSON</button>
+    <div class="hidden-message" id="specialMessage">
+        <p>You are my everything! 💖</p>
+    </div>
+    
+    <div class="footer">
+        <p>May this year bring you as much happiness as you have given me!</p>
+        <p>kabhi bye nhi bolna km se km bss khush rho </p>
+        <p>jai shree Radhe  </p>
+        <p>jai shree krishna  </p>
+        <p>Happy new year   </p>
+    </div>
+    </div>
+
+    <script>
+        function toggleMessage() {
+            const message = document.getElementById('Thank you for becoming my special person ');
+            if (message.style.display === 'none' || message.style.display === '') {
+                message.style.display = 'block';
+            } else {
+               
